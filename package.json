@@ -1,0 +1,13 @@
+{
+  "name": "fastpack-injection",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "fpack build --dev --mock=./config.js:./dev.config.js",
+    "prod": "fpack build --dev --mock=./config.js:./prod.config.js"
+  },
+  "devDependencies": {
+    "fpack": "^0.6.8"
+  }
+}
